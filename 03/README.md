@@ -19,7 +19,7 @@
 5. Praktekkan cara memisahkan fungsi dan memanggilnya dari file berbeda di rust. (nilai:5)
 6. Praktekkan cara penggunaan dan perbedaan perintah cargo run dan cargo build, serta penjelasan setiap baris di file cargo.toml. (nilai:5)
      - cargo build digunakan untuk mengkomplasi kode tanpa menjalankan program.
-     - cargo run digunakan untuk mengkompilasi kode (jika diperlukan) dan menjalankan executable yang dihasilkan.
+     - cargo run digunakan untuk mengkompilasi kode (jika diperlukan) dan menjalankan executable(file yang dapat dijalankan langsung oleh sistem) yang dihasilkan.
 8. Jelaskan kegunaan crates.io. (nilai:5) Crates.io adalah repositori online untuk proyek-proyek Rust. Ini adalah tempat di mana pengembang Rust dapat membagikan dan menemukan paket-paket (dikenal sebagai "crates") yang dapat digunakan dalam pengembangan perangkat lunak mereka.  
 9. Jelaskan perbedaan membuat library dan file utama di rust. (nilai:5)
     library = terdiri dari beberapa modul dan fungsi-fungsi yang bisa dipanggil oleh kode di luar library.
@@ -31,6 +31,7 @@
 
 1. Jelaskan apa itu Hugging Face Candle dan praktekkan cara penggunaannya.(nilai : 10) Hugging Face Candle adalah sebuah proyek open-source yang dikembangkan oleh Hugging Face untuk menyediakan library yang kuat dan mudah digunakan untuk pengembangan dan penelitian dalam bidang Natural Language Processing (NLP) dan Deep Learning. 
 2. Jelaskan per baris kode program dan jalankan [phi](https://github.com/mymyid/phi). (nilai:10)
+   - Menggunakan versi stabil dari library seperti `anyhow` dan `clap`.
 3. Jelaskan per baris kode program dan jalankan [rwkv](https://github.com/mymyid/rwkv). (nilai:10)
 4. Jelaskan per baris kode program dan jalankan [mistral](https://github.com/mymyid/mistral). (nilai:10)
 5. Analisis perbedaan dari ketiga model llm tersebut dari waktu generasi kalimat, akurasi dan kebutuhan komputasinya. (Nilai : 10)
